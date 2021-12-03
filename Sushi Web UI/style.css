@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:peachpuff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+.first{
+    height: 20px;
+    background-color: black;
+}
+.logo-icon{
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    bottom: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+.bg-page{
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    overflow: hidden;
+}
+.sushi{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    height: 500px;
+    width: 60vw;
+    z-index: 1;
+}
+.text{
+    float: right;
+    color: grey;
+    position: relative;
+    left: 700px;
+}
+.nav-items{
+    list-style: none;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.nav-items li{
+    padding: 2px 20px;
+    display: block;
+    margin-top: 20px;
+}
+.nav-items li a{
+    background-color: rgb(255, 147, 6);
+    color: white;
+    padding: 10px 60px;
+    margin-left: 80px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-items li a:hover{
+    color: tomato;
+    background-color: black;
+    cursor: pointer;
+}
+span{
+    color: rgb(233, 56, 25);
+}
+.flex-container {
+    height: 200px;
+    margin:90px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 2;
+    position: relative;
+    
+}
+
+.flex-left {
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:45%;
+    padding: 45px 50px;
+    background-color:rgb(243, 211, 151);
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.flex-left h4{
+    margin-top: 10px;
+}
+.flex-right {
+    flex-wrap: wrap;
+    width: 45%;
+    padding: 45px 50px;
+    background-color:rgb(243, 211, 151);
+    opacity: 0.8;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+/*---------------------------Second Container---------------------*/
+.second-container{
+    background-color: rgb(253, 197, 124);
+    height: 250px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.container-first{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left{
+    background-color: rgb(230, 158, 66);
+    width: 45%;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 5px;
+    
+}
+.left-text{
+    padding: 10px 20px;
+    float: left;
+    width: 50%;
+    line-height: 1.4;
+    list-style: none;
+    font-weight: 700;
+}
+.left-text p{
+    margin-bottom: 10px;
+}
+.right-img{
+    float: right;
+    width: 50%;
+}
+.right-img img{
+    height:200px;
+}
+
+.right{
+    background-color: rgb(230, 158, 66);
+    width: 45%;
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 5px;
+   
+}
+/*--------------------------------third-container----------------------------------------*/
+
+.third-container{
+    background-color: rgb(253, 197, 124);
+    background-size: cover;
+    height: 250px;
+    padding: 20px 15px;
+}
+.row{
+    height: 200px;
+    margin: 10px 10px;
+}
+.column{
+    float: left;
+    width: 24%;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.sushi-img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.ribbon{
+    height: 45px;
+    width: 210px;
+    position: absolute;
+    top: 1090px;
+}
+.rib-1{
+    left:70px;
+}
+.text-1{
+    position: absolute;
+    top: 1100px;
+    font-weight: 900;
+}
+.text-a{
+    left: 110px;
+}
+.text-b{
+    left: 430px;
+}
+.text-c{
+    left: 750px;
+}
+.text-d{
+    right: 135px;
+}
+.rib-2{
+    left: 392px;
+}
+.rib-3{
+    right: 426px;
+}
+.rib-4{
+    right: 104px;
+}
+/*--------------------------------third-container----------------------------------------*/
+.fourth-container{
+    padding: 10px 70px;
+    height: 290px;
+}
+.columns{
+    
+    float: left;
+    width: 24%;
+    height: 100px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.col-1{
+    background-color: rgb(230, 158, 66);
+    margin: 10px 5px;
+    padding: 10px 30px;
+    height: 160px;
+}
+.col-1 li{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.footer{
+    height: 40px;
+    background-color: rgb(230, 158, 66);
+    margin: 0px 14px;
+    
+    font-weight: bold;
+}
+.left-1{
+    float: left;
+    padding: 10px 25px;
+}
+.right-1{
+    float: right;
+}
+.right-1 i{
+    color: rgb(233, 56, 25);
+    padding: 5px 30px;
+    font-size: 30px;
+}
+.right-1 i:hover{
+    color:black;
+}
